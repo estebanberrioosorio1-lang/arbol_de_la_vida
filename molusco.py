@@ -1,5 +1,7 @@
 from invertebrados import Invertebrado
-class Molusco:
+
+
+class Molusco(Invertebrado):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_exoesqueleto, numero_de_patas, tiene_concha, produce_tinta):
         super().__init__(nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_exoesqueleto, numero_de_patas)
         self.tiene_concha = tiene_concha

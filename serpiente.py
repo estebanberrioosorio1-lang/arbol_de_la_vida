@@ -1,5 +1,7 @@
 from reptil import Reptil
-class Serpiente:
+
+
+class Serpiente(Reptil):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto, es_venenoso, tipo_escamas, longitud_en_metros, es_constrictora):
             super().__init__(nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto, es_venenoso, tipo_escamas) 
             self.longitud_en_metros = longitud_en_metros

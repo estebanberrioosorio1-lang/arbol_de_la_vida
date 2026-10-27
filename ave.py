@@ -1,5 +1,7 @@
 from vertebrados import Vertebrado
-class Ave:
+
+
+class Ave(Vertebrado):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto, envergadura_de_alas, puede_volar):
         super().__init__(nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto)
         self.envergadura_de_alas = envergadura_de_alas

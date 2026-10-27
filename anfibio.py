@@ -1,5 +1,7 @@
 from vertebrados import Vertebrado
-class Anfibio:
+
+
+class Anfibio(Vertebrado):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto, fase_vida):
         super().__init__(nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto) 
         self.fase_vida = fase_vida

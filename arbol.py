@@ -1,5 +1,7 @@
 from planta_vascular import PlantaVascular
-class Arbol:
+
+
+class Arbol(PlantaVascular):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_hoja, necesita_sombra, tiene_flor, tipo_de_tallo, da_frutos, altura_en_metros):
         super().__init__(nombre_cientifico, edad, energia, adn, tipo_hoja, necesita_sombra,tiene_flor, tipo_de_tallo)
         self.da_frutos = da_frutos

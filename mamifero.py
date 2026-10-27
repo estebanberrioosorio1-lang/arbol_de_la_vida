@@ -1,5 +1,7 @@
 from vertebrados import Vertebrado
-class Mamifero:
+
+
+class Mamifero(Vertebrado):
     def __init__(self, nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto, tipo_de_pelaje, meses_de_gestacion):
         super().__init__(nombre_cientifico, edad, energia, adn, tipo_de_dieta, habitat, tiene_columna, tipo_esqueleto)             
         self.tipo_de_pelaje = tipo_de_pelaje

@@ -1,5 +1,7 @@
 from ser_vivo import SerVivo
-class Hongo:
+
+
+class Hongo(SerVivo):
     def __init__(self, nombre_cientifico, edad, energia, adn, es_venenoso):
         super().__init__(nombre_cientifico, edad, energia, adn)
         self.es_venenoso = es_venenoso
